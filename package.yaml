@@ -1,0 +1,29 @@
+name: derta
+description:
+version: 0.0.0
+
+homepage:
+author:
+
+registry: https://mirrors.tuna.tsinghua.edu.cn/dart-pub/
+
+publish: false
+pubspec: false
+
+scripts:
+  clean: >-
+    rm -rf ./.dart_tool;
+    rm -rf ./.packages;
+    rm -rf ./pubspec.lock;
+  get: 'pub get'
+  editor: 'code -a'
+  run:
+  build:
+  test:
+
+deps: 
+devDeps:
+  - path
+
+excutables:
+  derta:
